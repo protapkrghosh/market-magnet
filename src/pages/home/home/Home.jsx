@@ -9,7 +9,7 @@ const Contact = lazy(() => import("../contact/Contact"));
 const OurProjects = lazy(() => import("../our-projects/OurProjects"));
 
 const Staretigy = lazy(() => import("../stretigy/Staretigy"));
-const Testimonial = lazy(() => import("../testimonial/Testimonial"));
+const Testimonials = lazy(() => import("../testimonial/Testimonials"));
 const Video = lazy(() => import("../video/Video"));
 const WhoWeAre = lazy(() => import("../who-we-are/WhoWeAre"));
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
                     <Contact />
                     <Video />
                     <OurProjects />
-                    <Testimonial />
+                    <Testimonials />
                     <OurTeam />
                     <FaAskedQuiestions />
                     <News />

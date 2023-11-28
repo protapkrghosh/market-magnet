@@ -1,9 +1,10 @@
+import FAQ from "../services/FAQ";
 
 
 const FaAskedQuiestions = () => {
     return (
         <div>
-            <h1>this is faq</h1>
+           <FAQ />
         </div>
     );
 };
