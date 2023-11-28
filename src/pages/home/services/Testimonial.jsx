@@ -92,7 +92,16 @@ const Testimonial = () => {
           </h1>
         </div>
         <Swiper
-          slidesPerView={1}
+          breakpoints={{
+            // when window width is >= 768px
+            768: {
+              slidesPerView: 1,
+            },
+            // when window width is >= 1024px
+            1024: {
+              slidesPerView: 3,
+            },
+          }}
           spaceBetween={50}
           centeredSlides={true}
           autoplay={{
