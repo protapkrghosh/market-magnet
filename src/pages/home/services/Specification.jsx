@@ -48,7 +48,7 @@ const Specification = () => {
         <h1 className="font-bold text-6xl tracking-tighter text-white text-center mt-4 mb-24">
           WHY CHOOSE US.
         </h1>
-        <div className="grid grid-cols-3 gap-x-10 gap-y-14 max-w-[1140px] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-x-10 gap-y-14 max-w-[1140px] mx-auto">
           {specifications.map((specification) => (
             <div key={specification.logo}>
               <span className="flex items-center text-5xl">
