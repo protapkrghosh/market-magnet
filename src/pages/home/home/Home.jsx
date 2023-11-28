@@ -7,9 +7,9 @@ const ContactInformation = lazy(() => import("../contact-information/ContactInfo
 const Banner = lazy(() => import("../banner/Banner"));
 const Contact = lazy(() => import("../contact/Contact"));
 const OurProjects = lazy(() => import("../our-projects/OurProjects"));
-const Servises = lazy(() => import("../services/Services"));
+
 const Staretigy = lazy(() => import("../stretigy/Staretigy"));
-const Testimonial = lazy(() => import("../testimonial/Testimonial"));
+const Testimonials = lazy(() => import("../testimonial/Testimonials"));
 const Video = lazy(() => import("../video/Video"));
 const WhoWeAre = lazy(() => import("../who-we-are/WhoWeAre"));
 const Home = () => {
@@ -18,13 +18,12 @@ const Home = () => {
             <LazyLoad height={310}>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Banner />
-                    <WhoWeAre />
-                    <Servises />
+                    <WhoWeAre />                 
                     <Staretigy />
                     <Contact />
                     <Video />
                     <OurProjects />
-                    <Testimonial />
+                    <Testimonials />
                     <OurTeam />
                     <FaAskedQuiestions />
                     <News />

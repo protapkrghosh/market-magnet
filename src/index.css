@@ -5,3 +5,6 @@
 .btn-primary{
     @apply btn inline-block bg-[#f70942] border-spacing-0 hover:bg-[#f70942] border-0 text-white font-bold py-4 px-8 rounded
 }
+.btn-secendary{
+    @apply btn border-0 border-b-2 border-[#f70942] hover:text-[#f70942] text-black
+}
