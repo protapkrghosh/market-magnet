@@ -4,7 +4,6 @@ const OurTeam = lazy(() => import("../our-team/OurTeam"));
 const FaAskedQuiestions = lazy(() => import("../faq/FaAskedQuiestions"));
 const News = lazy(() => import("../news/News"));
 const ContactInformation = lazy(() => import("../contact-information/ContactInformation"));
-const Advertisment = lazy(() => import("../advertisment/Advertisment"));
 const Banner = lazy(() => import("../banner/Banner"));
 const Contact = lazy(() => import("../contact/Contact"));
 const OurProjects = lazy(() => import("../our-projects/OurProjects"));
@@ -22,7 +21,6 @@ const Home = () => {
                     <WhoWeAre />
                     <Servises />
                     <Staretigy />
-                    <Advertisment />
                     <Contact />
                     <Video />
                     <OurProjects />
