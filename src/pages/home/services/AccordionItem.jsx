@@ -21,7 +21,7 @@ const AccordionItem = ({ id, title, content, activeItem, setActiveItem }) => {
           <span className="mr-7 h-5 w-5 shrink-0 transition-transform duration-200 ease-in-out cursor-pointer text-[#F70942]">
             {isOpen ? <FaMinus /> : <FaPlus />}
           </span>
-          <p className='font-bold'>{title}</p>
+          <p className='lg:font-bold'>{title}</p>
         </button>
       </h2>
       <div
@@ -30,7 +30,7 @@ const AccordionItem = ({ id, title, content, activeItem, setActiveItem }) => {
         aria-labelledby={id}
       >
         <div className="px-5 py-4">
-          <strong className='text-gray-500'>{content}</strong>
+          <strong className='text-gray-500 font-thin'>{content}</strong>
         </div>
       </div>
     </div>
