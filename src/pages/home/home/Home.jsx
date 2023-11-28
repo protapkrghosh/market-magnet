@@ -8,7 +8,7 @@ const Advertisment = lazy(() => import("../advertisment/Advertisment"));
 const Banner = lazy(() => import("../banner/Banner"));
 const Contact = lazy(() => import("../contact/Contact"));
 const OurProjects = lazy(() => import("../our-projects/OurProjects"));
-const Servises = lazy(() => import("../services/Services"));
+
 const Staretigy = lazy(() => import("../stretigy/Staretigy"));
 const Testimonial = lazy(() => import("../testimonial/Testimonial"));
 const Video = lazy(() => import("../video/Video"));
@@ -19,8 +19,7 @@ const Home = () => {
             <LazyLoad height={310}>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Banner />
-                    <WhoWeAre />
-                    <Servises />
+                    <WhoWeAre />                 
                     <Staretigy />
                     <Advertisment />
                     <Contact />
