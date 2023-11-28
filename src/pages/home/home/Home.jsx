@@ -8,7 +8,7 @@ const Advertisment = lazy(() => import("../advertisment/Advertisment"));
 const Banner = lazy(() => import("../banner/Banner"));
 const Contact = lazy(() => import("../contact/Contact"));
 const OurProjects = lazy(() => import("../our-projects/OurProjects"));
-const Servises = lazy(() => import("../servises/Servises"));
+const Servises = lazy(() => import("../services/Services"));
 const Staretigy = lazy(() => import("../stretigy/Staretigy"));
 const Testimonial = lazy(() => import("../testimonial/Testimonial"));
 const Video = lazy(() => import("../video/Video"));
