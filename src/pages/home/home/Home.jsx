@@ -15,8 +15,8 @@ const Video = lazy(() => import("../video/Video"));
 const WhoWeAre = lazy(() => import("../who-we-are/WhoWeAre"));
 const Home = () => {
     return (
-        <>
-            <LazyLoad height={200}>
+        <div className="">
+            <LazyLoad height={310}>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Banner />
                     <WhoWeAre />
@@ -33,7 +33,7 @@ const Home = () => {
                     <ContactInformation />
                 </Suspense>
             </LazyLoad>
-        </>
+        </div>
     );
 };
 

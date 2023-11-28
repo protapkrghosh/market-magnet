@@ -14,11 +14,16 @@
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.12.0",
     "react-lazy-load": "^4.0.1",
     "react-router-dom": "^6.20.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
