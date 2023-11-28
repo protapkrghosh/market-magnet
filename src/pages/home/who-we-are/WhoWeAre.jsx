@@ -5,7 +5,7 @@ const WhoWeAre = () => {
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
                 <div>
-                    <h1 className="text-5xl font-bold">WE CREATE MASS <br /> PUBLIC'S EYE <br /> ATTENTION</h1>
+                    <h1 className="text-5xl font-bold">WE CREATE MASS <br /> PUBLICS EYE <br /> ATTENTION</h1>
                   
                     <button className="btn btn-primary">Get Started</button>
                 </div>
