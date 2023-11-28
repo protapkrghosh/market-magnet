@@ -9,7 +9,7 @@ const Company = () => {
     "https://outmedia.freekytheme.com/wp-content/uploads/2020/11/client-logo5.png",
   ];
     return (
-        <div className="grid grid-cols-5 max-w-[1140px] mx-auto my-24">
+        <div className="grid grid-cols-5 gap-y-5 max-w-[1140px] mx-auto my-24">
             {
                 companiesLogos.map(companiesLogo => (
                     <img key={companiesLogo} src={companiesLogo} alt="" />

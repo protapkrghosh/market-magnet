@@ -38,7 +38,7 @@ const Billboard = () => {
         },
       ];
     return (
-        <div className="grid grid-cols-3 gap-5 max-w-[1140px] mx-auto my-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-[1140px] mx-auto my-24">
         {billboards.map((billboard) => (
           <div key={billboard.img} className="relative overflow-hidden">
             <img
