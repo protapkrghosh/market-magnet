@@ -5,7 +5,7 @@ const WhoWeAre = () => {
         <div className="hero w-9/12 mx-auto ">
             <div className="hero-content flex-col lg:flex-row">
                 <div className="md:w-[50%]"> 
-                    <h1 className="text-3xl font-bold">WE CREATE MASS <br /> PUBLICS EYE <br /> ATTENTION</h1>
+                    <h1 className="text-3xl font-bold">WE CREATE MASSs <br /> PUBLICS EYE <br /> ATTENTION</h1>
                   
                     <button className="btn btn-secendary">Get Started</button>
                 </div>
