@@ -14,7 +14,4 @@ export  const banners =[
         img:"https://i.ibb.co/R3G3nR3/banner-3.jpg",
        
     }
-  
-    
-   
 ]
