@@ -6,10 +6,11 @@ const Staretigy = () => {
   const progressImage = "https://outmedia.freekytheme.com/wp-content/uploads/2021/03/bg-prgress.jpg"
 
   const mediaBg = {
-    backgroundImage: `url(${mediaImage})`,
+   backgroundImage: `url(${mediaImage})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: "750px",
-    backgroundPosition: "bottom",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '100%',
   };
 
   const progressBg = {

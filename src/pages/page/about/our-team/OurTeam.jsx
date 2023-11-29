@@ -10,8 +10,6 @@ const OurTeam = () => {
     backgroundSize: "cover",
     backgroundPosition: "center",
   };
-
-  return (
     <div className="pt-28 pb-52" style={teamBg}>
       <div className='text-center'>
         <h4 className='text-[#ED0841] font-medium uppercase'>Meet our expert team</h4>
@@ -22,7 +20,6 @@ const OurTeam = () => {
         </div>
       </div>
 
-      {/* Team members */}
       <div className='px-10 md:px-20 lg:px-28'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
           {/* Card 1 */}
@@ -65,7 +62,7 @@ const OurTeam = () => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 
