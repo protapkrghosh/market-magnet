@@ -99,47 +99,65 @@ export const billboards = [
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-f.jpg",
         heading: "MULTI FORMAT MEDIA",
-        
+        category:"inspiretion",
+        date:30,
+        monthe:"December"
       },
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-e.jpg",
         heading: "SMARTLY PLANNED",
-                
+        category:"inspiretion"    ,
+        date:30,
+        monthe:"December"
       },
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-d.jpg", 
         heading: "BUILD BRANDS",
-        
+        category:"inspiretion",
+        date:30,
+        monthe:"December"
       },
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-d.jpg",
         heading: "MULTI FORMAT MEDIA",
-        
+        category:"inspiretion",
+        date:30,
+        monthe:"December"
       },
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/09/blog-details-a.jpg",
         heading: "SMARTLY PLANNED",
-               
+        category:"technology"    ,
+        date:30,
+        monthe:"December" 
       },
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-f.jpg", 
         heading: "BUILD BRANDS",
-        
+        category:"technology" ,
+        date:30,
+        monthe:"December"
       },
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-e.jpg",
         heading: "MULTI FORMAT MEDIA",
-        
+        category:"technology" ,
+        date:30,
+        monthe:"December"
       },
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-d.jpg",
         heading: "SMARTLY PLANNED",
-               
+        category:"inspiretion"  ,
+        date:30,
+        monthe:"December"  
       },
       {
         imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-d.jpg", 
         heading: "BUILD BRANDS",
-       
+        category:"inspiretion",
+        date:30,
+        monthe:"December"
       },
     
     ]

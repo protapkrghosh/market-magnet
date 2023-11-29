@@ -20,8 +20,21 @@ const News = () => {
             >
                 {news.map((newse, index) => (
                     <SwiperSlide key={index}>
-                        <img src={newse.imge} alt="" />
-                        <h1>{newse.heading}</h1>
+                        <div className="relative ">
+                            <img
+                                src={newse.imge}
+                                alt=""
+                                loading="lazy"
+                                className="h-96 w-full object-cover transform transition-transform hover:scale-105"
+                            />
+
+                            <div className="absolute inset-0 bg-black opacity-40"></div>
+                            <div className="absolute top-2 left-2 z-10">
+                                <h1 className="">{newse.heading}</h1>
+
+                                <button className="btn-news">read more</button>
+                            </div>
+                        </div>
                     </SwiperSlide>
                 ))}
             </Swiper>
