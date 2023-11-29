@@ -113,7 +113,7 @@ const Testimonial = () => {
             nextEl: ".custom-swiper-button-next",
           }}
           modules={[Autoplay, Navigation]}
-          className="mySwiper my-24"
+          className="mySwiper my-24 "
         >
           {testimonials.map((testimonial) => (
             <SwiperSlide key={testimonial.name}>
