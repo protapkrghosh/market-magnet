@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const OurTeam = () => {
   return (
-    <div className="bg-[url('https://outmedia.freekytheme.com/wp-content/uploads/2021/03/team-bg.jpg')] bg-center bg-cover pt-28 pb-52">
+    <div className="bg-[url('https://outmedia.freekytheme.com/wp-content/uploads/2021/03/team-bg.jpg')] bg-center bg-cover pt-28 pb-52 my-12">
       <div className='text-center'>
         <h4 className='text-[#ED0841] font-medium uppercase'>Meet our expert team</h4>
 

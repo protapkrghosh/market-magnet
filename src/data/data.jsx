@@ -95,3 +95,51 @@ export const billboards = [
         heading: "BUILD BRANDS",
         para: "A business is only as good as its strategic process, and that’s what contributes to expectations with the one industry.",
       },]
+    export const news = [
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-f.jpg",
+        heading: "MULTI FORMAT MEDIA",
+        
+      },
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-e.jpg",
+        heading: "SMARTLY PLANNED",
+                
+      },
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-d.jpg", 
+        heading: "BUILD BRANDS",
+        
+      },
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-d.jpg",
+        heading: "MULTI FORMAT MEDIA",
+        
+      },
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/09/blog-details-a.jpg",
+        heading: "SMARTLY PLANNED",
+               
+      },
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-f.jpg", 
+        heading: "BUILD BRANDS",
+        
+      },
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-e.jpg",
+        heading: "MULTI FORMAT MEDIA",
+        
+      },
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-d.jpg",
+        heading: "SMARTLY PLANNED",
+               
+      },
+      {
+        imge: "https://outmedia.freekytheme.com/wp-content/uploads/2020/12/blog-details-d.jpg", 
+        heading: "BUILD BRANDS",
+       
+      },
+    
+    ]
