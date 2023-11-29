@@ -17,7 +17,7 @@ const OurProjects = () => {
                 <h1 className=" text-white text-7xl font-extrabold my-4">OUR PROJECTS.</h1>
 
             </div>
-            <div className="absolute top-96 left-4">
+            <div className="absolute top-96 mb-40 left-4">
                 <ProjectsCompononet />
             </div>
         </div>

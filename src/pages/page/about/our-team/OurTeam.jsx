@@ -26,7 +26,9 @@ const OurTeam = () => {
       <div className='px-10 md:px-20 lg:px-28'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
           {/* Card 1 */}
+
           <div className='relative group mb-28 lg:mb-0'>
+
             <div>
               <img src="https://outmedia.freekytheme.com/wp-content/uploads/2020/09/team-01.jpg" alt="Image"/>
             </div>
@@ -39,6 +41,7 @@ const OurTeam = () => {
 
           {/* Card 2 */}
           <div className='relative group mb-28 lg:mb-0'>
+
             <div>
               <img src="https://outmedia.freekytheme.com/wp-content/uploads/2020/09/team-02.jpg" alt="Image"/>
             </div>

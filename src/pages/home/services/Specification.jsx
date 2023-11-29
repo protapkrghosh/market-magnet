@@ -41,7 +41,7 @@ const Specification = () => {
       ];
     
     return (
-        <div className="bg-black py-24 text-white ">
+        <div className="bg-black py-24 text-white p-5">
         <h3 className="text-[#F70942] font-bold tracking-tighter text-center">
           OUR SPECIFICATION
         </h3>
