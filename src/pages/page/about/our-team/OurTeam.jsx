@@ -2,9 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const OurTeam = () => {
-  return (
-      <div>
-        <div className='text-center'>
+  const teamImage = "https://outmedia.freekytheme.com/wp-content/uploads/2021/03/team-bg.jpg"
+
+  const teamBg = {
+    backgroundImage: `url(${teamImage})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+    <div className="pt-28 pb-52" style={teamBg}>
+      <div className='text-center'>
         <h4 className='text-[#ED0841] font-medium uppercase'>Meet our expert team</h4>
 
         <div className='flex justify-center items-end group mt-3 mb-16'>

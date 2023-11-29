@@ -22,9 +22,9 @@ const MediaAgency = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2'>
       {/* Media content */}
-      <div style={mediaBg}>
-        <div className="bg-[#1d1c1c4b] bg-opacity-60 w-full h-full py-20">
-          <div className="mr-20">
+      <div className='bg-[#BFBFBF] justify-end flex items-start'>
+        <div className="py-20">
+          <div className="mr-10 md:mr-16 lg:mr-20 mt-10">
             <p className='text-6xl font-extrabold text-white text-end uppercase'>Expert out <br /> of media <br /> agency</p>
           </div>
         </div>
@@ -32,7 +32,7 @@ const MediaAgency = () => {
 
       {/* Progress content */}
       <div className='pt-16 pb-32' style={progressBg}>
-        <div className='w-[60%] mx-auto'>
+        <div className='w-[80%] md:w-[60%] mx-auto'>
           <div>
             <p className='text-[25px] font-semibold text-white mb-10'>Providing expert assistance with <br /> billboard advertising for 25 years. <br /> quickly present you</p>
           </div>
