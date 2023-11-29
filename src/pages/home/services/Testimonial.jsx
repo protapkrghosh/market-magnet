@@ -84,7 +84,7 @@ const Testimonial = () => {
         },
       ];
     return (
-        <div className="max-w-[1140px] mx-auto relative">
+        <div className="max-w-[1140px] mx-auto relative pt-[700px] md:pt-0">
         <div className="flex items-center relative my-24">
           <IoMdQuote className="rotate-180 bg-[#F70942] h-24 lg:h-[280px] w-16 lg:w-[400px] lg:pl-24 text-white"></IoMdQuote>
           <h1 className="text-3xl lg:text-6xl font-bold absolute left-16 lg:left-72 lg:top-10">
