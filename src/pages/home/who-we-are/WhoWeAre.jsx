@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 const WhoWeAre = () => {
     return (
-        <div className="md:w-9/12 md:mx-auto bg-white md:py-20 md:px-20  border-b-2 ml-4 my-14 ">
+        <div className="md:w-9/12 md:mx-auto bg-white md:py-20 md:px-20  border-b-2 ml-4 mb-14 ">
             <div className="  md:flex items-center justify-center gap-4">
                 <div className="md:w-[50%]">
                     <h1 className="md:text-4xl text-2xl text-black md:font-extrabold  font-bold">WE CREATE MASS <br /> PUBLICS EYE <br /> <span className="text-[#f70942]">ATTENTION</span></h1>
@@ -28,7 +28,7 @@ const WhoWeAre = () => {
                 </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

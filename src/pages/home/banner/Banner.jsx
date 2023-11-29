@@ -31,7 +31,7 @@ const Banner = () => {
                     <SwiperSlide key={index}>
                         <div className="relative">
                             <div className="absolute inset-0 bg-gradient-to-r from-[#4a0072] to-slate-500 opacity-90"></div>
-                            <img src={banner?.img} alt="" className="object-cover w-full md:h-max h-screen" />
+                            <img src={banner?.img} alt="" className="object-cover w-full md:h-[1000px] h-screen" />
                             <div className="flex hero-content items-center md:w-9/12 mx-auto  justify-start absolute inset-0 text-white">
                                 <div className="">
                                     {banner.title.split('\n').map((line, lineIndex) => (

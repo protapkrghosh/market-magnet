@@ -9,15 +9,21 @@ const Advertishment = () => {
 
             <div className="md:flex w-full justify-center items-center ">
                 <div className="md:w-[50%] ">
-                    <img src="https://i.ibb.co/cy78vMg/images.jpg" className="h-max w-full " />
+                    <img src="https://outmedia.freekytheme.com/wp-content/uploads/2021/03/image-b.jpg" className="h-max w-full " />
                 </div>
                 <div className="md:w-[50%] md:ml-14 ml-4">
                     <h1 className="text-2xl font-bold">Billboard advertising creates an <br /> instant impression and has <br /> excellent recall rates</h1>
                     <p className="py-6 text-slate-500">We work in any domestic market,<br /> and internationally. With a few details we will quickly present you with the best <br /> available billboard locations in the areas.</p>
-                   <div className="flex gap-20 ml-10 items-center">
-                   <p className="mt-4 font-bold"><FaToriiGate className="mx-auto text-4xl text-[#f70942]"/> Tradional</p>
+                   <div className="flex gap-16 ml-10 items-center">
+                   <div>
+                   <img src="https://outmedia.freekytheme.com/wp-content/uploads/2020/12/signboard.png" loading="lazy" className="h-12 w-12" alt="" />
+                   <p className=" font-bold"> Tradional</p>
+                   </div>
                    <p className="font-bold">Transit Media</p>
-                   <p className="mt-4 font-bold"><FaHome  className="mx-auto text-4xl text-[#f70942]"/> Highway</p>
+                   <div>
+                   <img src="https://outmedia.freekytheme.com/wp-content/uploads/2020/12/shop.png" loading="lazy" className="h-12 w-12" alt="" />
+                   <p className=" font-bold"> Highway</p>
+                   </div>
                    </div>
                 </div>
             </div>
@@ -32,7 +38,7 @@ const Advertishment = () => {
                    
                 </div>
                 <div className="md:w-[60%]">
-                    <img src="https://i.ibb.co/4W4s4fr/images-1.jpg" className="h-full w-full" />
+                    <img src="https://outmedia.freekytheme.com/wp-content/uploads/2021/03/image-c.jpg" className="h-full w-full" />
                 </div>
             </div>
         </div>

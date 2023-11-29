@@ -1,7 +1,7 @@
 
 
 const Contact = () => {
-    const imge = "https://i.ibb.co/nzTcx4d/images-2.jpg"
+    const imge = "https://outmedia.freekytheme.com/wp-content/uploads/2023/08/bg-cta.jpg"
     const imgeStyle = {
         backgroundImage: `url(${imge})`,
         backgroundRepeat: 'no-repeat',
