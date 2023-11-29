@@ -4,10 +4,10 @@ import AccordionItem from "./AccordionItem";
 const FAQ = () => {
   const [activeItem, setActiveItem] = useState(null);
   return (
-    <div className="flex justify-between items-center gap-24 max-w-[1140px] mx-auto">
-      <div className="w-1/2 h-[900px] bg-[#F6F6F6] py-[150px] px-[60px]">
+    <div className="flex flex-col lg:flex-row justify-between items-center gap-24 max-w-[1140px] mx-auto">
+      <div className="w-full lg:w-1/2 h-[600px] lg:h-[900px] bg-[#F6F6F6] py-5 lg:py-[150px] px-5 lg:px-[60px]">
         <h4 className="text-[#F70942] font-semibold mb-3">FAQS</h4>
-        <h1 className="text-6xl font-bold tracking-tighter mb-10">
+        <h1 className="text-2xl lg:text-6xl font-bold tracking-tighter mb-10">
           MOST ASKED QUESTIONS
         </h1>
         <div>
@@ -41,7 +41,7 @@ const FAQ = () => {
           />
         </div>
       </div>
-      <div className="w-[40%] bg-[#F70942] p-[50px] text-white">
+      <div className="w-full lg:w-[40%] bg-[#F70942] p-[50px] text-white">
         <h3 className="text-3xl font-bold">REACH OUT VIA THE FROM BELOW</h3>
         <form action="">
           <div className="relative h-10 w-full my-8">

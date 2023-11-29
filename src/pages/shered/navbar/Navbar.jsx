@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
       <li className="ml-4  flex items-center text-white"> <Link to={'/'}>HOME</Link></li>
       <li className="ml-4  flex items-center text-white"><Link to={'/about'}>PAGES</Link></li>
-      <li className="ml-4  flex items-center text-white"><Link to={'/admition'}>SERVICE</Link></li>
+      <li className="ml-4  flex items-center text-white"><Link to={'/services'}>SERVICE</Link></li>
       <li className="ml-4 flex items-center text-white"><Link to={'/mycolge'}>NEWS</Link></li>
       <li className="ml-4 flex items-center text-white"><Link to={'/mycolge'}>CONTACT</Link></li>
     </>
