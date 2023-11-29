@@ -11,6 +11,9 @@
 .btn-play{
     @apply  btn bg-[#f70942] rounded-full text-white hover:bg-[#f70942] 
 }
+.btn-news{
+    @apply  px-4 py-4 border-b-2 text-white border-[#f70942]
+}
 .count-down{
     @apply text-[#f70942] text-4xl md:font-extrabold  font-bold
 }

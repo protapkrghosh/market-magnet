@@ -1,7 +1,7 @@
 import React from 'react';
 import ProgressBar from "@ramonak/react-progress-bar";
 
-const Staretigy = () => {
+const MediaAgency = () => {
   const mediaImage = "https://itsyuj.com/wp-content/uploads/2021/04/about-img.jpg"
   const progressImage = "https://outmedia.freekytheme.com/wp-content/uploads/2021/03/bg-prgress.jpg"
 
@@ -81,4 +81,4 @@ const Staretigy = () => {
   );
 };
 
-export default Staretigy;
+export default MediaAgency;

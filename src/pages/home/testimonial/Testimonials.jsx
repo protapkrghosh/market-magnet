@@ -3,7 +3,7 @@ import Testimonial from '../services/Testimonial';
 
 const Testimonials = () => {
     return (
-        <div className='py-28'>
+        <div className='md:pt-60 pt-96'>
             <Testimonial />
         </div>
     );
