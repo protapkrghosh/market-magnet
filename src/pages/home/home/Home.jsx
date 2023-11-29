@@ -1,6 +1,8 @@
 import LazyLoad from "react-lazy-load";
 import { Suspense, lazy } from "react";
 import OurServises from "../banner/our-servises/OurServises";
+import Advertishment from "../advertisment/Advertishment";
+import Testimonials from "../testimonial/Testimonials";
 const OurTeam = lazy(() => import("../our-team/OurTeam"));
 const FaAskedQuiestions = lazy(() => import("../faq/FaAskedQuiestions"));
 const News = lazy(() => import("../news/News"));
@@ -10,7 +12,7 @@ const Contact = lazy(() => import("../contact/Contact"));
 const OurProjects = lazy(() => import("../our-projects/OurProjects"));
 
 const Staretigy = lazy(() => import("../stretigy/Staretigy"));
-const Testimonials = lazy(() => import("../testimonial/Testimonials"));
+
 const Video = lazy(() => import("../video/Video"));
 const Home = () => {
     return (
@@ -20,6 +22,7 @@ const Home = () => {
                     <Banner />  
                     <OurServises />                    
                     <Staretigy />
+                    <Advertishment />
                     <Contact />
                     <Video />
                     <OurProjects />

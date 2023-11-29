@@ -1,7 +1,9 @@
+import { homebillboards } from "../../../../data/data";
 import Billboard from "../../services/Billboard";
 
 
 const OurServises = () => {
+    const homeBilbord = homebillboards
     return (
         <div className="md:mt-56">
             <div className="text-center my-14">
@@ -9,7 +11,7 @@ const OurServises = () => {
             <h1 className="text-5xl font-bold">OUR SERVICES .</h1>
             </div>
             <div>
-            <Billboard />
+            <Billboard billboards={homeBilbord}/>
             </div>
         </div>
     );

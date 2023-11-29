@@ -1,9 +1,9 @@
-import Testimonial from "../services/Testimonial";
 
+import Testimonial from '../services/Testimonial';
 
 const Testimonials = () => {
     return (
-        <div>
+        <div className='py-28'>
             <Testimonial />
         </div>
     );
