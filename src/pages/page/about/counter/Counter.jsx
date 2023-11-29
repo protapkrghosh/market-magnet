@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 const Counter = () => {
   return (
     <div className='w-[70%] mx-auto mb-32'>
-      <div className="md:grid grid-cols-4 gap-10 ">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 ">
         <div className='mt-4 '>
           <div className="count-down"><CountUp end={250} />K</div>
           <p className="">Brand Advertised​</p>
