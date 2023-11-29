@@ -1,26 +1,82 @@
-
+import React from 'react';
+import ProgressBar from "@ramonak/react-progress-bar";
 
 const Staretigy = () => {
-  const imge = "https://i.ibb.co/PFJqynL/stretigy.jpg"
-  const divStyle = {
-    backgroundImage: `url(${imge})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundAttachment: 'fixed',
+  const mediaImage = "https://itsyuj.com/wp-content/uploads/2021/04/about-img.jpg"
+  const progressImage = "https://outmedia.freekytheme.com/wp-content/uploads/2021/03/bg-prgress.jpg"
 
+  const mediaBg = {
+    backgroundImage: `url(${mediaImage})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: "750px",
+    backgroundPosition: "bottom",
   };
+
+  const progressBg = {
+    backgroundImage: `url(${progressImage})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: "cover",
+    backgroundPosition: "top",
+  };
+
   return (
-    <div className='relative w-full bg-cover' style={divStyle}>
-      <div className="absolute inset-0 bg-black opacity-10"></div>
-      <div className='md:flex md:justify-center md:items-center '>
-        <h1 className="text-right text-white text-7xl font-extrabold py-20">EXPERT OUT <br /> OF MEDIA <br /> AGENCY</h1>
-        <div className='text-white bg-purple-950 bg-opacity-90  md:w-1/2 ml-10 '>
-          <h1>March 20, 2023</h1>
-          <h1>WHERE CAN I GET SOME?</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate facere, deserunt dolores maiores quod nobis quas quasi. Eaque repellat recusandae ad laudantium tempore consequatur consequuntur omnis ullam maxime tenetur.</p>
-          <button className='btn btn-outline border-0 border-b-4 text-white'>read more</button>
+    <div className='grid grid-cols-1 md:grid-cols-2'>
+      {/* Media content */}
+      <div style={mediaBg}>
+        <div className="bg-[#1d1c1c4b] bg-opacity-60 w-full h-full py-20">
+          <div className="mr-20">
+            <p className='text-6xl font-extrabold text-white text-end uppercase'>Expert out <br /> of media <br /> agency</p>
+          </div>
         </div>
       </div>
 
+      {/* Progress content */}
+      <div className='pt-16 pb-32' style={progressBg}>
+        <div className='w-[60%] mx-auto'>
+          <div>
+            <p className='text-[25px] font-semibold text-white mb-10'>Providing expert assistance with <br /> billboard advertising for 25 years. <br /> quickly present you</p>
+          </div>
+
+          {/* Progress Bar */}
+          <div className='text-white space-y-8'>
+            <div>
+              <p className='text-[15px] mb-3'>Strategy</p>
+              <ProgressBar
+                completed={90}
+                bgColor="#CA0538"
+                height='6px'
+                labelSize="8px"
+                animateOnRender="true"
+                transitionDuration="3s"
+              />
+            </div>
+
+            <div>
+              <p className='text-[15px] mb-3'>Performance</p>
+              <ProgressBar
+                completed={75}
+                bgColor="#CA0538"
+                height='6px'
+                labelSize="8px"
+                animateOnRender="true"
+                transitionDuration="3s"
+              />
+            </div>
+
+            <div>
+              <p className='text-[15px] mb-3'>Planning</p>
+              <ProgressBar
+                completed={80}
+                bgColor="#CA0538"
+                height='6px'
+                labelSize="8px"
+                animateOnRender="true"
+                transitionDuration="3s"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
