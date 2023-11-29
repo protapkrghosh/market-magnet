@@ -6,7 +6,7 @@ import OurTeam from "../../page/about/our-team/OurTeam";
 import Advertishment from "../advertisment/Advertishment";
 const FaAskedQuiestions = lazy(() => import("../faq/FaAskedQuiestions"));
 const News = lazy(() => import("../news/News"));
-const ContactInformation = lazy(() => import("../contact-information/ContactInformation"));
+// const ContactInformation = lazy(() => import("../contact-information/ContactInformation"));
 const Banner = lazy(() => import("../banner/Banner"));
 const Contact = lazy(() => import("../contact/Contact"));
 const OurProjects = lazy(() => import("../our-projects/OurProjects"));
@@ -30,7 +30,7 @@ const Home = () => {
                     <OurTeam />
                     <FaAskedQuiestions />
                     <News />
-                    <ContactInformation />
+                    {/* <ContactInformation /> */}
                 </Suspense>
         </div>
     );

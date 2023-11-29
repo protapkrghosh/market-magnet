@@ -34,7 +34,7 @@ const Navbar = () => {
 
 
         <Link to={'/login'}>
-          <button className="btn btn-primary ml-8">login</button>
+          <button className="btn btn-primary ml-8">Contact Us</button>
         </Link>
 
 
