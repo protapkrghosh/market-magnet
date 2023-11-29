@@ -36,7 +36,7 @@ const News = () => {
                                     <p>{newse.monthe}</p>
                                     </div>
                                     <p className="flex items-center text-white gap-2 uppercase text-sm my-4"><FaBookmark className=""/>{newse.category}</p>
-                                    <h1 className="text-2xl font-bold  text-white">{newse.heading}</h1>
+                                    <h1 className="text-2xl font-bold  text-white">{newse?.heading}</h1>
                                 <button className="btn-news">read more</button>
                             </div>
                         </div>
