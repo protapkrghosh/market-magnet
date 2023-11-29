@@ -17,7 +17,7 @@ const Video = lazy(() => import("../video/Video"));
 const Home = () => {
     return (
         <div>
-            <LazyLoad height={310}>
+            
                 <Suspense fallback={<div>Loading...</div>}>
                     <Banner />  
                     <OurServises />                    
@@ -32,7 +32,6 @@ const Home = () => {
                     <News />
                     <ContactInformation />
                 </Suspense>
-            </LazyLoad>
         </div>
     );
 };
