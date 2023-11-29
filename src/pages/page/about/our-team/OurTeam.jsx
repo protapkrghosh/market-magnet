@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const OurTeam = () => {
   return (
-    <div className="bg-[url('https://outmedia.freekytheme.com/wp-content/uploads/2021/03/team-bg.jpg')] bg-center bg-cover pt-28 pb-52 my-12">
       <div className='text-center'>
         <h4 className='text-[#ED0841] font-medium uppercase'>Meet our expert team</h4>
 
@@ -17,7 +16,9 @@ const OurTeam = () => {
       <div className='px-10 md:px-20 lg:px-28'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
           {/* Card 1 */}
+
           <div className='relative group mb-28 lg:mb-0'>
+
             <div>
               <img src="https://outmedia.freekytheme.com/wp-content/uploads/2020/09/team-01.jpg" alt="Image"/>
             </div>
@@ -30,6 +31,7 @@ const OurTeam = () => {
 
           {/* Card 2 */}
           <div className='relative group mb-28 lg:mb-0'>
+
             <div>
               <img src="https://outmedia.freekytheme.com/wp-content/uploads/2020/09/team-02.jpg" alt="Image"/>
             </div>
