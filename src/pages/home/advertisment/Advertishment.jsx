@@ -3,10 +3,7 @@ import { FaCheck,FaToriiGate ,FaHome   } from "react-icons/fa";
 const Advertishment = () => {
     return (
         <div>
-
             <h1 className="text-3xl text-center font-bold my-20 text-black"><span className="text-[#f70942]">OUTDOOR ADVERTISING</span> IS CONTINUOUSLY <br /> CHANGING WITH THE MODERN WORLD AND NOW</h1>
-
-
             <div className="md:flex w-full justify-center items-center ">
                 <div className="md:w-[50%] ">
                     <img src="https://outmedia.freekytheme.com/wp-content/uploads/2021/03/image-b.jpg" className="h-max w-full " />
