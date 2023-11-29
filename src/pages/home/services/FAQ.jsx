@@ -4,7 +4,7 @@ import AccordionItem from "./AccordionItem";
 const FAQ = () => {
   const [activeItem, setActiveItem] = useState(null);
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center gap-24 max-w-[1140px] mx-auto">
+    <div className="flex flex-col lg:flex-row justify-between items-center gap-24 max-w-[1140px] mx-auto p-5">
       <div className="w-full lg:w-1/2 h-[600px] lg:h-[900px] bg-[#F6F6F6] py-5 lg:py-[150px] px-5 lg:px-[60px]">
         <h4 className="text-[#F70942] font-semibold mb-3">FAQS</h4>
         <h1 className="text-2xl lg:text-6xl font-bold tracking-tighter mb-10">
