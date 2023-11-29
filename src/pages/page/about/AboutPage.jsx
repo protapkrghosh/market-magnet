@@ -1,8 +1,15 @@
-import AboutBanner from "./aboutBanner/AboutBanner";
+import AboutBanner from "./about-banner/AboutBanner";
+import MediaAgency from "./media-agency/MediaAgency";
+import OurTeam from "./our-team/OurTeam";
+
 
 const AboutPage = () => {
   return (
-    <AboutBanner />
+    <div>
+      <AboutBanner />
+      <MediaAgency />
+      <OurTeam />
+    </div>
   );
 };
 

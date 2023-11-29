@@ -8,15 +8,17 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-    const navItem = (
-        <>
-            <li className="ml-4  flex items-center text-white"> <Link to={'/'}>HOME</Link></li>
-            <li className="ml-4  flex items-center text-white"><Link to={'/coleges'}>PAGES</Link></li>
-            <li className="ml-4  flex items-center text-white"><Link to={'/services'}>SERVICE</Link></li>
-            <li className="ml-4 flex items-center text-white"><Link to={'/mycolge'}>NEWS</Link></li>
-            <li className="ml-4 flex items-center text-white"><Link to={'/mycolge'}>CONTACT</Link></li>
-        </>
-    )
+
+  const navItem = (
+    <>
+      <li className="ml-4  flex items-center text-white"> <Link to={'/'}>HOME</Link></li>
+      <li className="ml-4  flex items-center text-white"><Link to={'/about'}>PAGES</Link></li>
+      <li className="ml-4  flex items-center text-white"><Link to={'/services'}>SERVICE</Link></li>
+      <li className="ml-4 flex items-center text-white"><Link to={'/mycolge'}>NEWS</Link></li>
+      <li className="ml-4 flex items-center text-white"><Link to={'/mycolge'}>CONTACT</Link></li>
+    </>
+  );
+
   return (
     <nav className="p-4 fixed z-10 w-full ">
       <div className="w-9/12 mx-auto flex items-center justify-between">
