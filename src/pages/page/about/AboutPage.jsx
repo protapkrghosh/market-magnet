@@ -1,8 +1,13 @@
-import AboutBanner from "./aboutBanner/AboutBanner";
+import AboutBanner from "./about-banner/AboutBanner";
+import OurTeam from "./our-team/OurTeam";
+
 
 const AboutPage = () => {
   return (
-    <AboutBanner />
+    <div>
+      <AboutBanner />
+      <OurTeam />
+    </div>
   );
 };
 
