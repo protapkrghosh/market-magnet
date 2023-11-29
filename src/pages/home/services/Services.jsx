@@ -4,12 +4,14 @@ import Specification from "./Specification";
 import Banner from "./Banner";
 import FAQ from "./FAQ";
 import Company from "./Company";
+import { billboards } from "../../../data/data";
 
 const Services = () => {
+  const billboard = billboards
   return (
     <div>
       <Banner></Banner>
-      <Billboard></Billboard>
+      <Billboard billboards={billboard}></Billboard>
       <Specification></Specification>
       <Testimonial></Testimonial>
       <FAQ></FAQ>
