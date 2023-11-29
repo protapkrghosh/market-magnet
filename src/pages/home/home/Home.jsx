@@ -1,30 +1,32 @@
 import LazyLoad from "react-lazy-load";
 import { Suspense, lazy } from "react";
-const OurTeam = lazy(() => import("../our-team/OurTeam"));
+import OurServises from "../banner/our-servises/OurServises";
+import Testimonials from "../testimonial/Testimonials";
+import OurTeam from "../../page/about/our-team/OurTeam";
+import Advertishment from "../advertisment/Advertishment";
 const FaAskedQuiestions = lazy(() => import("../faq/FaAskedQuiestions"));
 const News = lazy(() => import("../news/News"));
 const ContactInformation = lazy(() => import("../contact-information/ContactInformation"));
 const Banner = lazy(() => import("../banner/Banner"));
 const Contact = lazy(() => import("../contact/Contact"));
 const OurProjects = lazy(() => import("../our-projects/OurProjects"));
-const Servises = lazy(() => import("../services/Services"));
+
 const Staretigy = lazy(() => import("../stretigy/Staretigy"));
-const Testimonial = lazy(() => import("../testimonial/Testimonial"));
+
 const Video = lazy(() => import("../video/Video"));
-const WhoWeAre = lazy(() => import("../who-we-are/WhoWeAre"));
 const Home = () => {
     return (
-        <div className="">
+        <div>
             <LazyLoad height={310}>
                 <Suspense fallback={<div>Loading...</div>}>
-                    <Banner />
-                    <WhoWeAre />
-                    <Servises />
+                    <Banner />  
+                    <OurServises />                    
                     <Staretigy />
+                    <Advertishment></Advertishment>
                     <Contact />
                     <Video />
                     <OurProjects />
-                    <Testimonial />
+                    <Testimonials />
                     <OurTeam />
                     <FaAskedQuiestions />
                     <News />
