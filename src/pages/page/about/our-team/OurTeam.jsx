@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const OurTeam = () => {
   return (
@@ -22,7 +23,7 @@ const OurTeam = () => {
             </div>
 
             <div className='text-white text-center group-hover:bg-[#ED0841] py-10 absolute group-hover:-mt-14 left-[8%] duration-500 w-[85%]'>
-              <p className='text-[18px] uppercase'>Jhon Foster</p>
+              <Link className='text-[18px] uppercase'>Jhon Foster</Link>
               <p className='text-[14px]'>CEO, OOH Media</p>
             </div>
           </div>
@@ -34,7 +35,7 @@ const OurTeam = () => {
             </div>
 
             <div className='text-white text-center group-hover:bg-[#ED0841] py-10 absolute group-hover:-mt-14 left-[8%] duration-500 w-[85%]'>
-              <p className='text-[18px] uppercase'>Matt Kelchner</p>
+              <Link className='text-[18px] uppercase'>Matt Kelchner</Link>
               <p className='text-[14px]'>Director of Insights</p>
             </div>
           </div>
@@ -46,7 +47,7 @@ const OurTeam = () => {
             </div>
 
             <div className='text-white text-center group-hover:bg-[#ED0841] py-10 absolute group-hover:-mt-14 left-[8%] duration-500 w-[85%]'>
-              <p className='text-[18px] uppercase'>Mathew Fogg</p>
+              <Link className='text-[18px] uppercase'>Mathew Fogg</Link>
               <p className='text-[14px]'>Media Cordinator</p>
             </div>
           </div>
