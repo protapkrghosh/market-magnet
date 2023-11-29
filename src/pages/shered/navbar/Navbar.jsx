@@ -8,7 +8,6 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
     const navItem = (
         <>
             <li className="ml-4  flex items-center text-white"> <Link to={'/'}>HOME</Link></li>
@@ -17,7 +16,6 @@ const Navbar = () => {
             <li className="ml-4 flex items-center text-white"><Link to={'/mycolge'}>NEWS</Link></li>
             <li className="ml-4 flex items-center text-white"><Link to={'/mycolge'}>CONTACT</Link></li>
         </>
-    );
 
   return (
     <nav className="p-4 fixed z-10 w-full ">
