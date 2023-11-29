@@ -6,7 +6,7 @@ const Banner = () => {
         <img
           src="https://outmedia.freekytheme.com/wp-content/uploads/2021/02/banner-page.jpg"
           alt=""
-          className="w-full h-auto"
+          className="w-full h-[400px] lg:h-auto"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 text-white">
           <div className="text-center">
